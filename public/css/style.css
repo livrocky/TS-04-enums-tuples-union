@@ -5,16 +5,20 @@
 .card {
   padding: 1rem 2rem;
   border: 1px solid #000;
-  border-radius: 50%;
+  border-radius: 4px;
   box-shadow: 5px 5px 25px gray;
   display: inline-block;
-  width: 200px;
-  height: 200px;
-  display: flex;
+  /* width: 200px;
+  height: 200px; */
+  /* display: flex; */
   justify-content: center;
   align-items: center;
+  margin-bottom: 20px;
 }
-.card.errror {
+.card h2 {
+  margin-bottom: 0;
+}
+.card.error {
   background-color: var(--error-col);
   box-shadow: 5px 5px 25px var(--error-col);
   color: white;
